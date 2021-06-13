@@ -7,7 +7,6 @@ var upper_on = 0;
 var lower_on = 0;
 var sCharacters_on = 0;
 
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -18,7 +17,6 @@ function writePassword() {
 
 	passwordText.value = password;
 	var refresh = refreshValues()
-
 }
 
 function runPrompt() {
@@ -137,7 +135,6 @@ function getSpecialCharacter() {
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
-
 //password generator function
 function generatePassword() {
 
@@ -184,7 +181,6 @@ function refreshValues() {
 	upper_on = 0;
 	lower_on = 0;
 	sCharacters_on = 0;
-
 }
 
 // Add event listener to generate button
