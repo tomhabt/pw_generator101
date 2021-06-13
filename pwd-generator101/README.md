@@ -16,7 +16,7 @@ An application that it can be used as to generate a random password based on the
 * JavaScript
 
 ## Website
-https://tomhabt.github.io/pw-generator101/
+https://tomhabt.github.io/pw_generator101/
 
 ## Contribution
 Made with ❤️ by [Thomas Habtemariam]
